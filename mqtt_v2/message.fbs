@@ -1,0 +1,15 @@
+// monster.fbs
+namespace Messages;
+
+table Tail {
+    length:double;
+}
+
+table Monster {
+  name:string;
+  hp:int;
+  angry:bool;
+  tail: Tail;
+}
+
+root_type Monster;

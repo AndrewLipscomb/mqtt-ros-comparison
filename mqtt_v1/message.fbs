@@ -1,0 +1,9 @@
+// monster.fbs
+namespace Messages;
+
+table Monster {
+  name:string;
+  hp:int;
+}
+
+root_type Monster;
